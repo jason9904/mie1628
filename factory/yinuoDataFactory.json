@@ -1,0 +1,9 @@
+{
+	"name": "yinuoDataFactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8d11be4e-7dd5-451f-a09b-79f4486df888",
+		"tenantId": "78aac226-2f03-4b4d-9037-b46d56c55210"
+	}
+}
