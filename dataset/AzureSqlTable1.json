@@ -1,0 +1,104 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "year",
+				"type": "varchar"
+			},
+			{
+				"name": "occupation",
+				"type": "varchar"
+			},
+			{
+				"name": "major_category",
+				"type": "varchar"
+			},
+			{
+				"name": "minor_category",
+				"type": "varchar"
+			},
+			{
+				"name": "total_workers",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "workers_male",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "workers_female",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "percent_female",
+				"type": "varchar"
+			},
+			{
+				"name": "total_earnings",
+				"type": "varchar"
+			},
+			{
+				"name": "total_earnings_male",
+				"type": "varchar"
+			},
+			{
+				"name": "total_earnings_female",
+				"type": "varchar"
+			},
+			{
+				"name": "wage_percent_of_male",
+				"type": "varchar"
+			},
+			{
+				"name": "total_full_time",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			},
+			{
+				"name": "total_part_time",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			},
+			{
+				"name": "full_time_female",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			},
+			{
+				"name": "part_time_female",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			},
+			{
+				"name": "full_time_male",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			},
+			{
+				"name": "part_time_male",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "genderjobdist"
+		}
+	}
+}
