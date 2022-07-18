@@ -2,7 +2,7 @@
 	"name": "trigger1",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -16,7 +16,7 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 3,
-				"startTime": "2022-07-18T15:50:00",
+				"startTime": "2022-07-18T15:58:00",
 				"endTime": "2022-07-18T16:43:00",
 				"timeZone": "Pacific Standard Time"
 			}
