@@ -5,10 +5,10 @@
 		"factoryName": {
 			"value": "yinuoDataFactory"
 		},
-		"AzureSqlDatabaseLinkedService_connectionString": {
+		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
-		"AzureStorageLinkedService_connectionString": {
+		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
 		"containerUri": {

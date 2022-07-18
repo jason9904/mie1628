@@ -7,13 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "yinuoDataFactory"
 		},
-		"AzureSqlDatabaseLinkedService_connectionString": {
+		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabaseLinkedService'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
-		"AzureStorageLinkedService_connectionString": {
+		"AzureSqlDatabase1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService'"
+			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
 		},
 		"containerUri": {
 			"type": "string",
@@ -42,11 +42,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureSqlDatabaseLinkedService_connectionString": {
-						"value": "[parameters('AzureSqlDatabaseLinkedService_connectionString')]"
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
-					"AzureStorageLinkedService_connectionString": {
-						"value": "[parameters('AzureStorageLinkedService_connectionString')]"
+					"AzureSqlDatabase1_connectionString": {
+						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
 					}
 				}
 			},
