@@ -98,7 +98,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "genderjobdist"
+			"table": "GenderJob_new"
 		}
 	}
 }
