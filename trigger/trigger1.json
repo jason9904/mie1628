@@ -16,9 +16,9 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 3,
-				"startTime": "2022-07-18T18:59:00",
-				"endTime": "2022-07-18T19:43:00",
-				"timeZone": "Pacific Standard Time"
+				"startTime": "2022-07-19T00:12:00",
+				"endTime": "2022-07-19T00:43:00",
+				"timeZone": "Atlantic Standard Time"
 			}
 		}
 	}
