@@ -1,0 +1,25 @@
+{
+	"name": "triggerper3mins",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 3,
+				"startTime": "2022-07-19T00:19:00",
+				"endTime": "2022-07-19T01:13:00",
+				"timeZone": "Atlantic Standard Time"
+			}
+		}
+	}
+}
